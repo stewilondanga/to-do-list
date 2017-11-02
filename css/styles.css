@@ -1,0 +1,35 @@
+h1 {
+  color: #06e5ec;
+  font-weight: bold;
+
+}
+
+h2 {
+  color: #ec0630;
+}
+
+.form-group {
+  color: #deec06;
+  font-weight: bolder;
+}
+p {
+  color: #dee7e7;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.myInput {
+  padding: 20px;
+  margin-top: -6px;
+  border: 0;
+  border-radius: 0;
+  background: #e1ec06;
+}
+
+body {
+  text-align: center;
+  font-family: courier;
+  background-image:url("../assets/image.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

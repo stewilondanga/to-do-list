@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+
+
+
+  <title> To do list</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1> To do list for planning procrastinated activity</h1>
+
+    <p>Open the dropdown menu for <em>category suggestion</em> of how to plan your to do list</p>
+
+    <div class="dropdown">
+      <button id="button" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Category suggestion
+    <span class="caret"></span></button>
+      <ul class="dropdown-menu">
+        <input class="form-control" id="myInput" type="text" placeholder="Search..">
+        <li><a href="#">Urgent</a></li>
+        <li><a href="#">Business, work and studies</a></li>
+        <li><a href="#">Life tasks and Family</a></li>
+        <li><a href="#">Ambitions and Goals</a></li>
+      </ul>
+    </div>
+    <h2>What to do</h2>
+    <p>Below is a text area for <strong>adding stuff</strong> you want to categorize.</p>
+    <form>
+      <div class="form-group">
+        <label for="comment">Remember:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+      </div>
+    </form>
+  </div>
+
+</body>
+<script src="js/scripts.js" charset="utf-8"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>
