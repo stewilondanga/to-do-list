@@ -18,6 +18,10 @@ p {
   font-weight: bold;
 }
 
+em {
+  font-size: 50%;
+  color: #e97304;
+}
 .myInput {
   padding: 20px;
   margin-top: -6px;
