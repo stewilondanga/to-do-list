@@ -1,33 +1,12 @@
 h1 {
-  color: #06e5ec;
+  color: #F57306;
   font-weight: bold;
-
 }
 
-h2 {
-  color: #ec0630;
-}
-
-.form-group {
-  color: #deec06;
-  font-weight: bolder;
-}
 p {
   color: #dee7e7;
   font-size: 150%;
   font-weight: bold;
-}
-
-em {
-  font-size: 50%;
-  color: #e97304;
-}
-.myInput {
-  padding: 20px;
-  margin-top: -6px;
-  border: 0;
-  border-radius: 0;
-  background: #e1ec06;
 }
 
 body {
@@ -36,4 +15,66 @@ body {
   background-image:url("../assets/image.jpeg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    color: #899098;
+    font-weight: 400;
+    border-bottom: 1px solid #cfcbcc;
+    line-height: 1.5;
+    padding: 8px 0;
+    &:before {
+      content: "\25A1";
+      padding: 10px 10px;
+      font-size: 20px;
+    }
+    &:hover {
+      text-decoration: line-through;
+      cursor: pointer;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.checked {
+  color:green;
+    &:before {
+      content: "\2713";
+      padding: 10px 10px;
+      font-size: 20px;
+    }
+    &:hover {
+      text-decoration: none;
+      &:after {
+        content: "(remove)";
+        color: tomato;
+        text-align: right;
+      }
+    }
+}
+
+.container {
+  background: #F7F792;
+  max-width: 600px;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 1px solid #cfcbcc;
+}
+
+input {
+  border: none;
+  display: block;
+  width: 98.4%;
+  line-height: 1.5;
+  padding: 8px 0 8px 10px;
+  border-bottom: 1px solid #cfcbcc;
+  outline:0;
 }
